@@ -70,3 +70,42 @@ Neuron 1
 
 
 STARCRAFT CONFIGURATION
+
+Sistema Operativo:
+
+- Microsoft Windows XP Version 2002 (service pack 3)
+- Intel Corel i5-2520M 2.50GHz, 1.00 GB de RAM
+- 10 GB de Disco Duro
+
+
+    Installation
+        Install Visual Studio 2013
+        Install StarCraft: Brood War
+        Install BWAPI 4.1.2(download: https://github.com/bwapi/bwapi/releases)
+    Compile
+        Open ExampleProjects.sln in the BWAPI install directory
+        Build the ExampleAIModule project in RELEASE mode
+        Copy iron.dll(download: https://sscaitournament.com/index.php?action=botDetails&bot=Iron+bot) to bwapi-data/AI inside the StarCraft install folder
+    Run StarCraft through Chaoslauncher
+        Run Chaoslauncher.exe as administrator
+            Chaoslauncher is found in Chaoslauncher directory of BWAPI install directory
+        Check the BWAPI Injector x.x.x [RELEASE]
+        Click Start
+            Make sure the version is set to Starcraft 1.16.1, not ICCup 1.16.1
+    Run a game against Blizzard's AI
+        Go to Single Player -> Expansion
+        Select any user and click OK
+        Click Play Custom, select a map, and start a game
+    Run a game against yourself
+        Run Chaoslauncher - MultiInstance.exe as administrator
+        Start
+            Go to Multiplayer -> Expansion -> Local PC
+            Select any user and click OK
+            Click Create Game, select a map, and click OK
+        Start -- Uncheck BWAPI Injector x.x.x [RELEASE] to let a human play, leave alone to make AI play itself
+            Go to Multiplayer -> Expansion -> Local PC
+            Select any user and click OK
+            Join the existing game created by the other client
+
+Reference: https://github.com/bwapi/bwapi
+
