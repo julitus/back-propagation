@@ -72,12 +72,12 @@ Neuron 1
 
 STARCRAFT CONFIGURATION IA
 
-Sistema Operativo:
-
-- Microsoft Windows XP Version 2002 (service pack 3)
+Hardware
 - Intel Corel i5-2520M 2.50GHz, 1.00 GB de RAM
 - 10 GB de Disco Duro
 
+Sistema Operativo:
+- Microsoft Windows XP Version 2002 (service pack 3)
 
 Installation
 - Install Visual Studio 2013
