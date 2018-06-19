@@ -70,7 +70,7 @@ Neuron 1
 
 ========================================================================
 
-STARCRAFT CONFIGURATION
+STARCRAFT CONFIGURATION IA
 
 Sistema Operativo:
 
@@ -85,7 +85,7 @@ Installation
 - Install BWAPI 4.1.2(download: https://github.com/bwapi/bwapi/releases)
 
 Compile
-- Copy iron.dll(download: https://sscaitournament.com/index.php?action=botDetails&bot=Iron+bot) to bwapi-data/AI inside the StarCraft install folder
+- Copy Iron.dll(download: https://sscaitournament.com/index.php?action=botDetails&bot=Iron+bot) to bwapi-data/AI inside the StarCraft install folder
 
 Run StarCraft through Chaoslauncher
 - Run Chaoslauncher.exe as administrator, Chaoslauncher is found in Chaoslauncher directory of BWAPI install directory
